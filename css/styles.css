@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background:#333;
+    color: white;
+}
+a{
+    color:#ffffff;
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+    bottom: 10pt;
+    background-color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+h1{
+    font-family: sans-serif;
+    color:#ffffff;
+    font-size: 100pt;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 40pt;
+    position: absolute;
+    top: 250px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    top: 50
+}
+span{
+    color: red;
+}
+line{
+    text-decoration: underline;
+}
+.jumbotron{
+    padding: 79px;
+    margin-top: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
